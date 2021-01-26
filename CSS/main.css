@@ -22,7 +22,7 @@ body {
 .box-lembrete {
     width: 400px;
     height: 200px;
-    padding-top: 15px;
+    padding-top: 25px;
     background-color: rgb(235, 250, 33);
     border-radius: 20px;
     display: flex;
@@ -61,12 +61,13 @@ body {
     text-align: center;
     margin-bottom: 10px;
     text-transform: uppercase;
+    color: rgb(78, 77, 77);
     padding-bottom: 5px;
     font-size: 20px;
 }
 
 .box-button {
-    height: 60px;
+    height: 50px;
     width: 100%;
     margin-bottom: 0;
     background-color:  rgb(235, 250, 33);
@@ -82,7 +83,6 @@ body {
 }
 
 .box-button:hover {
-    text-shadow: 0 0 2px white;
     background-color:  rgb(241, 202, 26);
 }
 
