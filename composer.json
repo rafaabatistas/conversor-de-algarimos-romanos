@@ -1,0 +1,24 @@
+{
+    "name": "rafaabatistas/conversor-de-algarimos-romanos",
+    "description": "Conversor de algarismos Romanos em números Inteiros",
+    "minimum-stability": "beta",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Batista",
+            "email": "rafaabatistas@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    }
+}
