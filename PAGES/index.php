@@ -18,7 +18,7 @@
                 <h1>Digite os número Romanos aqui</h1>
                 <form class="form-principal" method="get">
                     <div class="box-text">
-                        <input class="text" type="text" name="algarismo" placeholder="Ex: XV" max="7" maxlength="7">
+                        <input class="text" type="text" name="algarismo" placeholder="Ex: XV" max="7" maxlength="7" required>
                     </div>
                     <button class="box-button" formaction="index.php">Ok!</button>
                 <?php else: ?>
