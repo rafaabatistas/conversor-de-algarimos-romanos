@@ -53,6 +53,15 @@ body {
     align-items: center;
 }
 
+.box-text p {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(78, 77, 77);
+}
+
 .text {
     width: 100px;
     border: none;
