@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <?php require_once "../PHP/function.php" ?>
+    <?php $numeroRomano = $_POST['algarismo'] ?? null; ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,24 +13,24 @@
 </head>
 <body>
     <div class="box-lembrete">
-        <?php  
-            $numeroRomano = $_GET['algarismo'] ?? null;
+        <?php           
             if(empty($numeroRomano)) : ?>
-                <h1>Digite os número Romanos aqui</h1>
-                <form class="form-principal" method="get">
+                <h1>Digite os números Romanos aqui</h1>
+                <form class="form-principal" method="post">
                     <div class="box-text">
                         <input class="text" type="text" name="algarismo" placeholder="Ex: XV" max="7" maxlength="7" required>
                     </div>
                     <button class="box-button" formaction="index.php">Ok!</button>
+                </form>
                 <?php else: ?>
                     <h1>O resultado é!?</h1>
                     <form class="form-principal" method="get">
                         <div class="box-text">
                         <p><?= $numeroRomano . ' = ' . conversorInt($numeroRomano) ?></p>
                         </div>
-                        <button class="box-button"> </a> Voltar.</button>
-            <?php endif ?>
-                </form>
+                        <button class="box-button"> </a> Voltar</button>
+                    </form>
+            <?php endif; ?>
     </div>
     <div class="box-shadow"></div>
 </body>
