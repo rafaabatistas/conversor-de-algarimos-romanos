@@ -119,6 +119,10 @@ body {
         font-size: 15px;
     }
 
+    .box-text p {
+        font-size: 13px;
+    }
+
     .box-shadow {
         width: 350px;
         height: 10px;
