@@ -14,7 +14,6 @@
 
         $letras = strlen($romano);
 
-    
         for($i = 0; $i < $letras; $i ++) {
             $letraAtual = $romano[$i];
             $proxLetra = $romano[$i+1] ?? false;
