@@ -23,17 +23,17 @@
             </form>
             <?php elseif(is_numeric($numeroRomano) == 1 || conversorInt($numeroRomano) === 0) : ?>
                 <h1>Opss!</h1>
-                    <form class="form-principal" method="get">
-                        <div class="box-text">
+                <form class="form-principal" method="get">
+                    <div class="box-text">
                         <p><?= $numeroRomano . ' não é um número romano. ' ?></p>
-                        </div>
-                        <button class="box-button"> </a> Voltar</button>
-                    </form>
+                    </div>
+                    <button class="box-button"> </a> Voltar</button>
+                </form>
                 <?php else : ?>
                     <h1>O resultado é!?</h1>
                     <form class="form-principal" method="get">
                         <div class="box-text">
-                        <p><?= $numeroRomano . ' = ' . conversorInt($numeroRomano) ?></p>
+                            <p><?= $numeroRomano . ' = ' . conversorInt($numeroRomano) ?></p>
                         </div>
                         <button class="box-button"> </a> Voltar</button>
                     </form>
