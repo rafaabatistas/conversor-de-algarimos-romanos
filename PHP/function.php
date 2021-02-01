@@ -14,16 +14,15 @@
 
         $letras = strlen($romano);
 
-        if(!$n == 0 ) {
-            for($i = 0; $i < $letras; $i ++) {
-                $letraAtual = $romano[$i];
-                $proxLetra = $romano[$i+1] ?? false;
+    
+        for($i = 0; $i < $letras; $i ++) {
+            $letraAtual = $romano[$i];
+            $proxLetra = $romano[$i+1] ?? false;
 
-                if($proxLetra && $numeros[$proxLetra] > $numeros[$letraAtual]) {
-                    $n -= $numeros[$letraAtual];
-                } else {
-                    $n += $numeros[$letraAtual];
-                }
+            if($proxLetra && $numeros[$proxLetra] > $numeros[$letraAtual]) {
+                $n -= $numeros[$letraAtual];
+            } else {
+                $n += $numeros[$letraAtual];
             }
         }
         return $n;
