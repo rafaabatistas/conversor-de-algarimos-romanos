@@ -6,15 +6,11 @@ Esse é um teste de lógica de programação que visa testar conhecimento da lin
 
 ## - Principais Hard Skills Trabalhadas
 
----
-
 - [x] HTML
 - [x] CSS
 - [x] PHP
 
 ## - Lógica Utilizada/Principal Obstáculo
-
----
 
 Primeiro de tudo, precisamos enteder como os números romanos funcionam, e ainda quais os valores de cada letra, sendo eles:
 
@@ -45,5 +41,5 @@ A função `strtoupper()` faz a conversão de texto minúsculo para maiúsculo, 
 
 
 ## - Créditos
----
+
 <span>Foto por <a href="https://unsplash.com/@didiofederico_photographer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Federico Di Dio photography</a> em <a href="https://unsplash.com/s/photos/romans?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
