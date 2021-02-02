@@ -27,7 +27,7 @@ Podemos sudvidir em dois casos, sendo eles de subtração e soma. O caso de subt
 O caso de soma ocorre quando se tem a mesma letra na sequência e/ou a primeira letra se tem um valor maior que a segunda, ex:
 
 ```
-    XX (10 + 10) = 10
+    XX (10 + 10) = 20
     LX (50 + 10) = 60
 ```
 
