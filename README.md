@@ -12,7 +12,7 @@ Esse é um teste de lógica de programação que visa testar conhecimento da lin
 
 ## - Lógica Utilizada/Principal Obstáculo
 
-Primeiro de tudo, precisamos enteder como os números romanos funcionam, e ainda quais os valores de cada letra, sendo eles:
+Primeiro de tudo, precisamos entender como os números romanos funcionam, e ainda quais os valores de cada letra, sendo eles:
 
 ``` 
     I = 1 / V = 5 / X = 10 / L = 50 / C = 100 / D = 500 / M = 1000
@@ -31,7 +31,7 @@ O caso de soma ocorre quando se tem a mesma letra na sequência e/ou a primeira 
     LX (50 + 10) = 60
 ```
 
-Tendo tudo isso em mente, no código foi declarado uma matriz que irá guardar todos os valores com suas respectivas letras da numeração romana, e que a partir disso, com uma estrutura de repetição o código primeiro saberá se existe mais de uma letra para algum dos casos ocorrer, se não tiver ele apenas retorna o número da letra em específico. Se tiver uma letra seguinte ou uma sequência de letras, consequentemente ele irá reconhecer se aquele valor é maior ou menor para fazer os cálculos, assim retornando o resultado.
+Tendo tudo isso em mente, no código foi declarado uma matriz que irá guardar todos os valores com suas respectivas letras da numeração romana, e que a partir disso, com uma estrutura de repetição o código primeiro saberá se existe mais de uma letra para algum dos casos ocorrer, se não tiver ele apenas retorna o valor da letra em específico. Se tiver uma letra seguinte ou uma sequência de letras, consequentemente ele irá reconhecer se aquele valor é maior ou menor para fazer os cálculos, assim retornando o resultado.
 
 Verifique o código em PHP [clicando aqui](https://github.com/rafaabatistas/conversor-de-algarimos-romanos/blob/master/PHP/function.php).
 
