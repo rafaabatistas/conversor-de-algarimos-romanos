@@ -1,6 +1,6 @@
 # Conversor de Algarismos Romanos em Números Inteiros
 
-Esse é um teste de lógica de programação que visa testar conhecimento da linguagem, nesse caso utilizando o PHP, e também ver o caminho lógico criado pelo programador. Na qual, a proposta é criar um conversor de números romanos para números inteiros, assim transformando qualquer número romano. Ainda foi implementado mais duas restrições, uma pra reconhecer números inteiros, já que a conversão não acontece inversamente, e também uma restrição para barrar letras nas quais não são algarismo romanos.
+Esse é um teste de lógica de programação que tem como objetivo testar o conhecimento sobre alguma linguagem de programação, neste caso foi utilizado o PHP, e também ver o caminho lógico criado pelo programador. Na qual, a proposta é criar um conversor de números romanos para números inteiros, assim transformando qualquer número romano. Ainda foi implementado mais duas restrições, uma pra reconhecer números inteiros, já que a conversão não acontece inversamente, e também uma restrição para barrar letras nas quais não são algarismo romanos.
 
 ### Acesse o projeto [clicando aqui](https://projeto-conversor.herokuapp.com/PAGES/index.php).
 
