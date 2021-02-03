@@ -2,6 +2,14 @@
 
 Esse é um teste de lógica de programação que tem como objetivo testar o conhecimento sobre alguma linguagem de programação, neste caso foi utilizado o PHP, e também ver o caminho lógico criado pelo programador. Na qual, a proposta é criar um conversor de números romanos para números inteiros, assim transformando qualquer número romano. Ainda foi implementado mais duas restrições, uma pra reconhecer números inteiros, já que a conversão não acontece inversamente, e também uma restrição para barrar letras nas quais não são algarismo romanos.
 
+### Preview Desktop
+
+<img src="https://github.com/rafaabatistas/conversor-de-algarimos-romanos/blob/master/IMG/preview-desktop.gif" align="center">
+
+### Aponte Sua Câmera para o Código QR
+
+<img src="https://github.com/rafaabatistas/conversor-de-algarimos-romanos/blob/master/IMG/qrcode.png" align="center" width="180px">
+
 ### Acesse o projeto [clicando aqui](https://projeto-conversor.herokuapp.com/PAGES/index.php).
 
 ## - Principais Hard Skills Trabalhadas
