@@ -6,11 +6,11 @@ Esse é um teste de lógica de programação que tem como objetivo testar o conh
 
 <img src="https://github.com/rafaabatistas/conversor-de-algarimos-romanos/blob/master/IMG/preview-desktop.gif" align="center">
 
-### Aponte Sua Câmera para o Código QR
+### Aponte Sua Câmera ao Código QR
 
 <img src="https://github.com/rafaabatistas/conversor-de-algarimos-romanos/blob/master/IMG/qrcode.png" align="center" width="180px">
 
-### Acesse o projeto [clicando aqui](https://projeto-conversor.herokuapp.com/PAGES/index.php).
+### Ou acesse o projeto [clicando aqui](https://projeto-conversor.herokuapp.com/PAGES/index.php).
 
 ## - Principais Hard Skills Trabalhadas
 
